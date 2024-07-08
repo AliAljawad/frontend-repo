@@ -9,7 +9,7 @@ class Client:
             self.server_ip = config.get('ServerIPAddress', 'localhost')
 
     def connect(self):
-        print(f"Connecting to server at {self.server_ip}")
+        print(f"Connecting  {self.server_ip}")
 
 if __name__ == "__main__":
     client = Client()
